@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
     <body>
-        <h1>Mes Todos</h1>
+        <h1>Mes tâches</h1>
         <ul>
             @forelse($todos as $todo)
                 <li>
